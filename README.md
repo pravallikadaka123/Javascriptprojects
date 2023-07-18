@@ -1,2 +1,2 @@
 # Javascriptprojects
-I am learning Javascript through projets.I will post all the projects here.
+I am learning Javascript through projects. I will post all the projects here.
