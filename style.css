@@ -4,6 +4,7 @@
     border:0;
     outline:none;
     box-sizing: border-box;
+    background-image: ;
 }
 body{
     height:100vh;
@@ -17,12 +18,12 @@ body{
     position: relative;
     width:400px;
     height:105px;
-    background:#fff;
+    background:whitesmoke;
     padding: 28px 32px;
     overflow: hidden;
     border-radius: 18px;
     font-family: 'Roboto',sans-serif;
-    transition:0.6s ;
+    transition:0.6s ease-out ;
 }
 .not-found
 {
@@ -164,16 +165,16 @@ weather-details i{
 }
 .not-found p{
     color: #06303d;
-    font-size: 22px;
+    font-size 22px;
     font-weight: 500;
     margin-top: 12px;
 }
 .weather-box .weather-details
 {
-    scale: 0;
-    opacity: 0;
+    scale: 1;
+    opacity: 1;
 }
-.fade-in
+.fadeIn
 {
     animation: 0.5s fadeIn forwards;
     animation-delay: 0.5s;
